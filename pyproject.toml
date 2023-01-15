@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qr_code_generator"
+version = "0.1.0"
+description = "Generate QR-code"
+authors = ["Roman Okatev <43115066+Nebulawalker@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qrcode = "^7.3.1"
+Pillow = "^9.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
